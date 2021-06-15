@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './master.css';
 
 function BannerImage() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <img className="banner" src="../images/banner.jpg" alt="BannerImage" />
+    </div>
+  )
 }
 
-export default BannerImage
+export default BannerImage;
